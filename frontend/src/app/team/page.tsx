@@ -31,7 +31,7 @@ const members = [
     blurb:
       'Shapes the user experience from research to final interaction, ensuring every flow feels intuitive.',
     photo: '/team/faridullah.png',
-      avatarClass: 'border-cyan-100 bg-cyan-50 text-cyan-500',
+    avatarClass: 'border-cyan-100 bg-cyan-50 text-cyan-500',
     roleClass: 'bg-cyan-50 text-cyan-600',
   },
   {
@@ -41,7 +41,7 @@ const members = [
     blurb:
       'Bridges business needs and technical delivery by translating requirements into clear, actionable specs.',
     photo: '/team/Z.png',
-      avatarClass: 'border-emerald-100 bg-emerald-50 text-emerald-500',
+    avatarClass: 'border-emerald-100 bg-emerald-50 text-emerald-500',
     roleClass: 'bg-emerald-50 text-emerald-600',
   },
 ]
@@ -88,7 +88,7 @@ export default function TeamPage() {
                 className="rounded-2xl border border-slate-100 bg-white/90 p-6 text-left shadow-sm shadow-blue-100/60"
               >
                 <div className="relative h-16 w-16 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
-                <Image
+                  <Image
                     src={member.photo}
                     alt={`${member.name} profile photo`}
                     fill
